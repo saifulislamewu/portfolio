@@ -549,3 +549,55 @@ h2{
     order:5;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Target the link inside the h4 tag */
+h4 a {
+    color: #0000ee !important;      /* Standard browser link blue */
+    text-decoration: underline;    /* Ensures it is underlined */
+}
+
+/* Optional: Style for when the link has been clicked before */
+h4 a:visited {
+    color: #551a8b !important;      /* Standard browser visited purple */
+}
+
+/* Optional: Style for when the mouse hovers over it */
+h4 a:hover {
+    color: #0056b3 !important;      /* Slightly darker blue on hover */
+}
